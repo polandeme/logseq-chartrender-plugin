@@ -24,7 +24,7 @@ const DrawLine = (props) => {
       width={chartWidth}
       height={chartHeight}
       data={chartObj}
-      margin={{ top: 20, right: 5, left: 5, bottom: 20 }}
+      margin={{ top: 15, right: 5, left: 5, bottom: 20 }}
     >
       <CartesianGrid strokeDasharray="1 1" />
       <XAxis dataKey="name">
